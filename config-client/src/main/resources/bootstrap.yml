@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-client
+  #profiles:
+  #  active: dev
+  cloud:
+    config:
+      failFast: true
+
+endpoints:
+  restart:
+    enabled: true
